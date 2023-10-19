@@ -1,0 +1,117 @@
+.containerr { /* for homepage html */
+    text-align: center;
+    position: absolute;
+    right:1050px;/* Adjust the left position as needed */
+    top:200px; /* Adjust the top position as needed */
+}
+.intro{
+    display: flexbox;
+    align-items: right;
+    text-align: center;
+    left:200px;
+    padding-left: 300px;
+}
+.items{
+    padding:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    flex: 1;
+    margin: 200px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+
+}
+.homepage {
+    padding-top: 0px;
+    background-repeat: repeat;
+    background-size:cover;
+    background-size: 200;
+    border:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    margin: 0;
+    left: 0;
+    right: 0;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    padding: 0px 0 0;
+    display: flex;
+    flex-direction: column;
+   
+    min-height: 100vh;
+    background-color:#ffe0bd;
+    
+    
+    }
+
+
+    .main-section { /* for homepage html */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+   .main{
+    background-color: #ffe0bd;
+   }
+   .left-button{
+    background-color: rgb(51, 50, 47);
+    color: #FFF;
+    margin-bottom: 30px;
+    border-radius: round;
+    border-style: round;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    size: large;
+   }
+
+   #contact{
+    display: flexbox;
+    box-sizing: content-box;
+    box-shadow: black;
+    align-content: center;
+
+
+
+   }
+   .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-item {
+    flex-basis: 48%; /* Adjust as needed */
+    margin-bottom: 20px; /* Add margin for spacing */
+}
+.custom-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .resumefont{
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+    margin-top: -160px;
+
+  }
+  .resumeh1{
+    margin-bottom: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+
+  }
+  .txt{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
